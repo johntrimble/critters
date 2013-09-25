@@ -14,6 +14,8 @@
 
 (def background-color (Color. (Color/HSBtoRGB 0.5 0.5 0.5)))
 
+;; This simple method of random color generation comes from a neat article 
+;; written by Martin Ankerl: goo.gl/xKQU2s
 (def rand-colors
   (map #(Color. (Color/HSBtoRGB % 0.5 0.95))
     (iterate
