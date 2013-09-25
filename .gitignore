@@ -1,4 +1,4 @@
 .idea
-.lein-repl-history
+.lein-*
 target
 *.iml
