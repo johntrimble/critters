@@ -23,7 +23,7 @@
       (rand))))
 
 (defn- get-font-dimensions
-  "Given a font, returns its dimensions as a map o(docf :width and :height."
+  "Given a font, returns its dimensions as a map of :width and :height."
   [^Font font]
   (let [frc (FontRenderContext. (.getTransform font) (boolean true) (boolean true))
         bounds (.getStringBounds font "A" frc)]
