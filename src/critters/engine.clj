@@ -59,7 +59,7 @@
     (map (partial map + pos))
     (map #(if (contains-point? width height %) % nil)) ;; replace point with nil if not in world
     (zipmap cardinal-directions)
-    (filter #(second %)) ;; removes mappings to nil
+    (filter second) ;; removes mappings to nil
     (into {})))
 
 (defn can-hop? [{front :front}] (= front :empty))
