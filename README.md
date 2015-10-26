@@ -7,7 +7,7 @@ This is based on a clever programming assignment developed by [Stuart Reges](htt
 ## Running
 
 ```
-git clone git@github.com:johntrimble/critters.git
+git clone https://github.com/johntrimble/critters.git
 cd critters
 lein -m critters.main
 ```
