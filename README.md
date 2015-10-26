@@ -9,5 +9,5 @@ This is based on a clever programming assignment developed by [Stuart Reges](htt
 ```
 git clone https://github.com/johntrimble/critters.git
 cd critters
-lein -m critters.main
+lein run -m critters.main
 ```
